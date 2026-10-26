@@ -1,0 +1,78 @@
+# Build artifacts
+build/
+build-*/
+out/
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.a
+*.lib
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+CTestTestfile.cmake
+_deps/
+
+# CUDA specific
+*.fatbin
+*.cubin
+*.ptx
+*.gpu
+*.compute
+
+# Nsight Compute profiling reports
+*.ncu-rep
+*.ncu-rep.tmp
+
+# Nsight Systems profiling reports
+*.nsys-rep
+*.qdrep
+*.qdrep-timeline
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+nsys_result*/
+ncu_result*/
+
+# Profiling outputs
+reports/
+*.nvprof
+
+# CSV / data outputs
+*.csv
+results/
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+.eggs/
+.pytest_cache/
+.venv/
+venv/
+
+# Plots
+*.png
+*.pdf
+*.svg
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
